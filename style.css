@@ -31,20 +31,18 @@ nav {
 	background-color: var(--bg);
 }
 
-
-
-nav a {
-	display: block;
-	margin: 10px 0;
-	padding: 0;
-	font-size: 1.5em;
-	text-decoration: none;
-	color:var(--fill);
-	filter: drop-shadow(1px 1px 0 var(--text)) 
-			drop-shadow(-1px 1px 0 var(--text)) 
-			drop-shadow(0 -1px 0 var(--text)) 
-			drop-shadow(1px 0 var(--text));
+nav div {
+	height: fit-content;
+	width: fit-content;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: -1.5vw;
+	text-align: right;
 }
+
+
 
 nav a:hover, nav a:focus {
 	color: var(--accent);
