@@ -20,6 +20,13 @@ body {
 
 img { max-width: 100% }
 
+.stripe {
+	float: right;
+	width: 3%;
+	height: 100vh;
+	background-color: var(--line);
+}
+
 nav {
 	float: right;
 	width: 15%;
@@ -78,12 +85,7 @@ section {
 	border: 5px solid var(--line);
 }
 
-.stripe {
-	float: right;
-	width: 3%;
-	height: 100vh;
-	background-color: var(--line);
-}
+
 
 hr {
 	border: none;
