@@ -35,7 +35,7 @@ nav {
 	width: 15%;
 	height: 100vh;
 	position: relative;
-	background-color: var(--accent);
+	background-color: var(--line);
 	text-align: right;
 }
 
