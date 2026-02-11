@@ -27,6 +27,10 @@ img { max-width: 100% }
 	background-color: var(--line);
 }
 
+*::-webkit-scrollbar { width: 20px; }
+*::-webkit-scrollbar-track { background: var(--line); }
+*::-webkit-scrollbar-thumb { background-color: var(--text); border: transparent; }
+
 nav {
 	float: right;
 	width: 15%;
