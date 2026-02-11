@@ -63,7 +63,6 @@ main {
 	width: 82%;
 	height: 100vh;
 	padding: 2em;
-	overflow-y: scroll;
 	background-color: var(--bg);
 }
 
@@ -251,6 +250,5 @@ footer a { color: var(--text); }
 	
 	.stripe { height: 30px; }
 	
-	*::-webkit-scrollbar { width: 10px; }
 	
 }
