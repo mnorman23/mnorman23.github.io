@@ -31,16 +31,7 @@ nav {
 	background-color: var(--bg);
 }
 
-nav div {
-	height: fit-content;
-	width: fit-content;
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-	right: -1.5vw;
-	text-align: right;
-}
+
 
 nav a {
 	display: block;
@@ -97,6 +88,7 @@ header {
 			drop-shadow(-1px 1px 0 var(--text))
 			drop-shadow(0 -1px 0 var(--text))
 			drop-shadow(1px 0 var(--text));
+	text-align: right;
 }
 
 h2, h3, h4, h5, h6, p, table, details, cite, blockquote, img {
