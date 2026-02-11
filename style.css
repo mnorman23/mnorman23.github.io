@@ -22,7 +22,7 @@ img { max-width: 100% }
 
 .stripe {
 	float: right;
-	width: 5%;
+	width: 3%;
 	height: 100vh;
 	background-color: var(--line);
 }
