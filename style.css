@@ -79,7 +79,7 @@ section {
 }
 
 .stripe {
-	float: left;
+	float: right;
 	width: 3%;
 	height: 100vh;
 	background-color: var(--line);
