@@ -1,6 +1,6 @@
 :root {
 	--text: darkslategray;
-	--line: FF9430;
+	--line: #FF9430;
 	--accent: #FFC35C;
 	--bg: lightgrey;
 	--fill: whitesmoke;
@@ -58,6 +58,7 @@ nav a {
 
 nav a:hover, nav a:focus {
 	color: var(--accent);
+	float:right
 }
 
 main {
