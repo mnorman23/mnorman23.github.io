@@ -212,6 +212,18 @@ footer a { color: var(--text); }
 .quarter { flex: 1 1 calc(25% - 2em); }
 .threequarter { flex: 1 1 calc(75% - 2em); }
 
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
 @media screen and (max-width: 800px){
 
 	nav, main, .stripe {
@@ -259,7 +271,7 @@ footer a { color: var(--text); }
 	
 	.stripe { height: 30px; }
 
-	
+
 	
 	
 }
