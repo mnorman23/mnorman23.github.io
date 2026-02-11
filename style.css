@@ -74,6 +74,7 @@ main {
 	height: 100vh;
 	padding: 2em;
 	background-color: var(--bg);
+	overflow-y: scroll;
 }
 
 .container { max-width: 1500px }
@@ -254,6 +255,8 @@ footer a { color: var(--text); }
 	section { padding: 0 1em; }
 	
 	.stripe { height: 30px; }
+
+	
 	
 	
 }
