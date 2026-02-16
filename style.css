@@ -147,10 +147,10 @@
 	}
 	
 /* other page elements */
-	p, ul, ol, details, table {
+	p, details, table {
 		margin: 1rem 0;
 	}
-	p, li, dd, dt, cite, code { 
+	p, dd, dt, cite, code { 
 		line-height: 1.4;
 	}
 	sup, sub { 
