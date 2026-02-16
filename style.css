@@ -1,6 +1,6 @@
 /* quick customization */
 	:root {
-		--width: 900px; /* sets the maximum width of the middle section */
+		--width: 1000px; /* sets the maximum width of the middle section */
 		--headingfont: "Georgia"; 
 		--bodyfont: "Verdana"; 
 		--borderwidth: 7px;
