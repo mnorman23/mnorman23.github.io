@@ -157,17 +157,6 @@
 		text-decoration-color: var(--link); 
 		text-decoration-thickness: 2px;
 	}
-	ul ul, ol ul {
-		margin: 0;
-	}
-	ul li::marker { 
-		color: var(--border);
-		font-size: 125%;
-		line-height: 1;
-	}
-	ul ul li::marker, ol ul li::marker { 
-		color: var(--text);
-	}
 	figure { 
 		background: var(--border);
 		border: 10px solid var(--border);
