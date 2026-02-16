@@ -1,8 +1,8 @@
 :root {
-	--text: #413C58;
-	--line: #FF9430;
-	--accent: #FFC35C;
-	--bg: #C8DEEC;
+	--text: darkslategray;
+	--line: darkseagreen;
+	--accent: cadetblue;
+	--bg: lightgrey;
 	--fill: whitesmoke;
 }
 
@@ -17,26 +17,18 @@ body {
 	box-sizing: border-box;
 	scrollbar-color: var(--text) var(--line) }
 
-
-img { max-width: 100% }
-
-.stripe {
-	float: right;
-	width: 3%;
-	height: 100vh;
-	background-color: var(--line);
-}
-
+*::-webkit-scrollbar { width: 20px; }
 *::-webkit-scrollbar-track { background: var(--line); }
 *::-webkit-scrollbar-thumb { background-color: var(--text); border: transparent; }
 
+img { max-width: 100% }
+
 nav {
-	float: right;
+	float: left;
 	width: 15%;
 	height: 100vh;
 	position: relative;
-	background-color: var(--line);
-	text-align: right;
+	background-color: var(--bg);
 }
 
 nav div {
@@ -48,7 +40,6 @@ nav div {
 	transform: translateY(-50%);
 	right: -1.5vw;
 	text-align: right;
-	
 }
 
 nav a {
@@ -62,22 +53,19 @@ nav a {
 			drop-shadow(-1px 1px 0 var(--text)) 
 			drop-shadow(0 -1px 0 var(--text)) 
 			drop-shadow(1px 0 var(--text));
-	text-align: right;
-	
 }
 
 nav a:hover, nav a:focus {
 	color: var(--accent);
-	
 }
 
 main {
-	float:right;
+	float:left;
 	width: 82%;
 	height: 100vh;
 	padding: 2em;
-	background-color: var(--bg);
 	overflow-y: scroll;
+	background-color: var(--bg);
 }
 
 .container { max-width: 1500px }
@@ -89,7 +77,12 @@ section {
 	border: 5px solid var(--line);
 }
 
-
+.stripe {
+	float: left;
+	width: 3%;
+	height: 100vh;
+	background-color: var(--line);
+}
 
 hr {
 	border: none;
@@ -104,7 +97,6 @@ header {
 			drop-shadow(-1px 1px 0 var(--text))
 			drop-shadow(0 -1px 0 var(--text))
 			drop-shadow(1px 0 var(--text));
-	text-align: right;
 }
 
 h2, h3, h4, h5, h6, p, table, details, cite, blockquote, img {
@@ -212,18 +204,6 @@ footer a { color: var(--text); }
 .quarter { flex: 1 1 calc(25% - 2em); }
 .threequarter { flex: 1 1 calc(75% - 2em); }
 
-.fill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.fill img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-
 @media screen and (max-width: 800px){
 
 	nav, main, .stripe {
@@ -270,8 +250,7 @@ footer a { color: var(--text); }
 	section { padding: 0 1em; }
 	
 	.stripe { height: 30px; }
-
-
 	
+	*::-webkit-scrollbar { width: 10px; }
 	
 }
