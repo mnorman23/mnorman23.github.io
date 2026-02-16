@@ -139,7 +139,7 @@
 	span {
 		background: var(--border);
 		border-radius: 8px;
-		padding: 1rem 2rem 1rem 1rem
+		padding: 1rem 1rem 1rem 1rem
 	}
 	
 	
@@ -210,10 +210,11 @@
 	}
 	table { 
 		max-width: 100%;
+		margin: 1rem auto;
 		width: 80%;
 		height: 80%
-		margin: 1rem auto;
 	}
+
 	th, td { 
 		border-radius: 8px;
 		padding: 3px 5px;
