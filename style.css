@@ -86,7 +86,7 @@
 	}
 
 	ul li a.active {
-  		background-color: var(--link);
+  		background-color: var(--border);
 	}
 	footer {
 		padding: 1rem 0 1.5rem 0;
