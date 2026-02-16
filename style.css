@@ -21,7 +21,7 @@ body {
 img { max-width: 100% }
 
 .stripe {
-	float: right;
+	float: left;
 	width: 3%;
 	height: 100vh;
 	background-color: var(--line);
@@ -31,7 +31,7 @@ img { max-width: 100% }
 *::-webkit-scrollbar-thumb { background-color: var(--text); border: transparent; }
 
 nav {
-	float: right;
+	float: left;
 	width: 15%;
 	height: 100vh;
 	position: relative;
