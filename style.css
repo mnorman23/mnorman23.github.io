@@ -179,7 +179,7 @@
 		border: 10px solid var(--border);
 		border-radius: 8px;
 		margin: 1rem auto;
-		width: var(--width)*.40;
+		width: 40%;
 		display: table;
 	}
 
