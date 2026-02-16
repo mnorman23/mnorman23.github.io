@@ -169,6 +169,16 @@
 		border: 10px solid var(--border);
 		border-radius: 8px;
 		margin: 1rem auto;
+		width: var(--width)*.66;
+		display: table;
+		float:left
+	}
+
+	figure2 {
+		background: var(--border);
+		border: 10px solid var(--border);
+		border-radius: 8px;
+		margin: 1rem auto;
 		width: fit-content;
 		display: table;
 	}
