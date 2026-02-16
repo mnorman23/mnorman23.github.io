@@ -276,6 +276,11 @@
 
 /* flex box */
 
+section {
+	margin: 0 0;
+	padding: 1em 2em
+}
+
 .flex-box {
     display:flex;
     flex-wrap:wrap;
