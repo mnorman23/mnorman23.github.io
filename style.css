@@ -273,3 +273,23 @@
 		color: var(--section);
 		background-color: var(--text);
 	}
+
+/* flex box */
+
+.flex-box {
+    display:flex;
+    flex-wrap:wrap;
+    margin: -1em;
+	align-items: flex-start;
+}
+
+.flex-box section {
+	margin: 1em;
+	}
+
+.full { flex: 1 1 100%;}
+.half { flex: 1 1 calc(50% - 2em); }
+.third { flex: 1 1 calc(33% - 2em); }
+.twothird { flex: 1 1 calc(66% - 2em); }
+.quarter { flex: 1 1 calc(25% - 2em); }
+.threequarter { flex: 1 1 calc(75% - 2em); }
