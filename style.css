@@ -96,11 +96,6 @@
 		padding: 1rem 2rem 1rem 1rem
 	}
 
-	learnmore {
-		background: var(--border);
-		border-radius: 8px;
-		padding: 1rem 2rem 1rem 1rem
-	}
 
 	hr { 
 		border: 0;
@@ -139,7 +134,11 @@
 	}
 	h4 { 
 		font-size: calc(1rem + 1vw);
+		background: var(--border);
+		border-radius: 8px;
+		padding: 1rem 2rem 1rem 1rem
 	}
+	
 	
 /* link style */
 	a:link { 
