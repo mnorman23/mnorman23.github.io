@@ -183,12 +183,12 @@
 		margin-left: 0px;
 	}
 
-	figure2 {
+	figure-2 {
 		background: var(--border);
 		border: 10px solid var(--border);
 		border-radius: 8px;
 		margin: 1rem auto;
-		width: fit-content;
+		width: 30%;
 		display: table;
 	}
 
