@@ -90,6 +90,7 @@
 	}
 	footer {
 		padding: 1rem 0 1.5rem 0;
+		background: var(--border)
 	}
 	hr { 
 		border: 0;
@@ -98,7 +99,7 @@
 	.container > ul, footer p { 
 		margin: 0;
 		padding: 0;
-		text-align: right;
+		text-align: center;
 	}
 	.container > ul li { 
 		list-style-type: none;
