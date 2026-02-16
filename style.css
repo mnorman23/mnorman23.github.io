@@ -58,15 +58,33 @@
 	main { 
 		margin: 1rem 0;
 	}
-	nav { 
-		margin: 1.5rem 0 1rem 0;
-		padding: 0.5rem 0 1rem 0;
-		border-top: var(--borderwidth) var(--borderstyle) var(--border);
-		border-bottom: var(--borderwidth) var(--borderstyle) var(--border);
+	ul {
+  		list-style-type: none;
+  		margin: 0;
+  		padding: 0;
+  		overflow: hidden;
+  		background-color: var(--section);
+  		position: fixed;
+  		top: 0;
+  		width: 100%;
 	}
-	nav li { 
-		margin: 0.25rem;
+
+	ul li {
+  		float: left;
 	}
+
+	ul li a {
+  		display: block;
+  		color: var(--border);
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+	}
+
+	ul li a:hover:not(.active) {
+  		background-color: var(--section);
+	}
+	
 	footer {
 		padding: 1rem 0 1.5rem 0;
 	}
