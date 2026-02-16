@@ -96,7 +96,7 @@
 		border: 0;
 		border-top: var(--borderwidth) var(--borderstyle) var(--border);
 	}
-	.container > ul, footer p { 
+	.container > ul, footer p, footer h2 { 
 		margin: 0;
 		padding: 0;
 		text-align: center;
