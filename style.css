@@ -89,11 +89,19 @@
 	ul li a.active {
   		background-color: var(--border);
 	}
+
 	footer {
 		background: var(--border);
 		border-radius: 8px;
 		padding: 1rem 2rem 1rem 1rem
 	}
+
+	learnmore {
+		background: var(--border);
+		border-radius: 8px;
+		padding: 1rem 2rem 1rem 1rem
+	}
+
 	hr { 
 		border: 0;
 		border-top: var(--borderwidth) var(--borderstyle) var(--border);
