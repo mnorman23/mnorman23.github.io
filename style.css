@@ -35,6 +35,7 @@
 		max-width: 100%; /* so everything adjusts on smaller screens */
 	}
 	body { 
+		padding-top: 70px; /* Adjust based on your navbar height */
 		margin: 0; padding: 0;
 		color: var(--text);
 		background: var(--border) var(--bgimage);
