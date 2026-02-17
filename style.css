@@ -17,15 +17,6 @@
 	}
 
 /* dark mode colors */
-	@media (prefers-color-scheme: dark) {
-		:root {
-			--text: #FFFDED;
-			--section: #463239; /* dark mode background color for the middle section */
-			--border: #C57B57;
-			--link: #F7BCBC;
-			--bgimage: linear-gradient(var(--link),var(--border)); /* you could also use an image! formatting: url("example.png") */
-		}
-	}
 	
 /* page layout */ 	
 	* { 
