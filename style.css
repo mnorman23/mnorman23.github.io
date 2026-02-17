@@ -16,6 +16,16 @@
 		--bgimage: linear-gradient(var(--border),var(--link)); /* you could also use an image! formatting: url("example.png") */
 	}
 
+/* dark mode colors */
+	@media (prefers-color-scheme: dark) {
+		:root {
+			--text: #FFFDED;
+			--section: #463239; /* dark mode background color for the middle section */
+			--border: #C57B57;
+			--link: #F7BCBC;
+			--bgimage: linear-gradient(var(--link),var(--border)); /* you could also use an image! formatting: url("example.png") */
+		}
+	}
 	
 /* page layout */ 	
 	* { 
@@ -74,10 +84,12 @@
 
 	ul li a:hover:not(.active) {
   		background-color: var(--section);
+		border-radius: 8px;
 	}
 
 	ul li a.active {
   		background-color: var(--border);
+		border-radius: 8px;
 	}
 
 	footer {
