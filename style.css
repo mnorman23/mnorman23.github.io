@@ -275,15 +275,9 @@ section {
 }
 
 .flex-box {
-    display:flex;
-    flex-wrap:wrap;
-    margin: -1em;
-	align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
 }
-
-.flex-box section {
-	margin: 1em;
-	}
 
 .full { flex: 1 1 100%;}
 .half { flex: 1 1 calc(50% - 2em); }
