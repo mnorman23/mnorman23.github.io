@@ -293,3 +293,17 @@ section {
 .twothird { flex: 1 1 calc(66% - 2em); }
 .quarter { flex: 1 1 calc(25% - 2em); }
 .threequarter { flex: 1 1 calc(75% - 2em); }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.navbar ul {
+  display: flex;
+}
+
