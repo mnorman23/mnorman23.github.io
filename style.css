@@ -185,6 +185,14 @@
 		margin-left: 0px;
 	}
 
+	figure-3 {
+		background: var(--border);
+		border: 10px solid var(--border);
+		border-radius: 8px;
+		display: table;
+		margin-left: 0px;
+	}
+
 	figure img { 
 		border-radius: 5px;
 	}
