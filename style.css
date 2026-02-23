@@ -133,6 +133,10 @@
 		background: var(--border);
 		border-radius: 8px;
 	}
+
+	h2 {
+		padding-bottom: 1rem;
+	}
 	
 	
 /* link style */
