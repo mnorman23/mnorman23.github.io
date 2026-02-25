@@ -290,7 +290,7 @@ section {
 }
 
 .flex-box {
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
 }
 
