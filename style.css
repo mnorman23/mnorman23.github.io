@@ -292,12 +292,30 @@ section {
     justify-content: space-around;
 }
 
-.full { flex: 1 1 100%;}
-.half { flex: 1 1 calc(50% - 2em); }
-.third { flex: 1 1 calc(33% - 2em); }
-.twothird { flex: 1 1 calc(66% - 2em); }
-.quarter { flex: 1 1 calc(25% - 2em); }
-.threequarter { flex: 1 1 calc(75% - 2em); }
+.full { 
+	flex: 1 1 100%;
+	padding: 1px 1px 1px 1px;
+}
+.half { 
+	flex: 1 1 calc(50% - 2em); 
+	padding: 1px 1px 1px 1px;
+}
+.third { 
+	flex: 1 1 calc(33% - 2em);
+	padding: 1px 1px 1px 1px;
+ }
+.twothird { 
+	flex: 1 1 calc(66% - 2em); 
+	padding: 1px 1px 1px 1px;
+}
+.quarter { 
+	flex: 1 1 calc(25% - 2em); 
+	padding: 1px 1px 1px 1px;
+}
+.threequarter { 
+	flex: 1 1 calc(75% - 2em);
+	padding: 1px 1px 1px 1px;
+}
 
 .navbar {
   display: flex;
