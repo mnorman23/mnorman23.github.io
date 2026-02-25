@@ -156,6 +156,7 @@
 		color: var(--link);
 		text-decoration-style: wavy;
 		text-decoration-thickness: 1px;
+		text-shadow: 1px 1px 2px var(--text);
 	}
 	
 /* other page elements */
