@@ -301,11 +301,11 @@ section {
 }
 .third { 
 	flex: 1 1 calc(33% - 2em);
-	padding: 1em 1em 1em 1em;
+	padding: 5px 5px 5px 5px;
  }
 .twothird { 
 	flex: 1 1 calc(66% - 2em); 
-	padding: 1em 1em 1em 1em;
+	padding: 5px 5px 5px 5px;
 }
 .quarter { 
 	flex: 1 1 calc(25% - 2em); 
