@@ -126,7 +126,7 @@
 		font-size: calc(1.25rem + 1.125vw);
 	}
 	h4 { 
-		font-size: calc(1rem + 1vw);
+		font-size: calc(1rem + .75);
 	}
 
 	span {
